@@ -20,6 +20,7 @@
     "imdb-api": "^2.2.0",
     "lodash": "^4.17.2",
     "parse-torrent-name": "^0.5.4",
+    "request": "^2.79.0",
     "sanitize-filename": "^1.6.1"
   }
 }
