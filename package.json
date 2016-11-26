@@ -1,0 +1,25 @@
+{
+  "name": "postprocess",
+  "version": "0.0.1",
+  "description": "Postprocess a downloaded video.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mwilliammyers/postprocess.git"
+  },
+  "author": "mwilliammyers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mwilliammyers/postprocess/issues"
+  },
+  "homepage": "https://github.com/mwilliammyers/postprocess#readme",
+  "dependencies": {
+    "imdb-api": "^2.2.0",
+    "lodash": "^4.17.2",
+    "parse-torrent-name": "^0.5.4",
+    "sanitize-filename": "^1.6.1"
+  }
+}
