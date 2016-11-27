@@ -81,6 +81,7 @@ function main() {
       switch(media.type) {
         case 'series':
         // TODO: clean this up...
+          const info = parseTorrentName(fileName); // TODO: dont call this again
           getMatchingTvEpisode(media, info).then(episode => {
             rename(filePath, getTvFileName(_.merge(info, episode)));
           });
