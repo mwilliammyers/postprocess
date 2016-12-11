@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const imdb = require('imdb-api');
 const request = require('request');
 const parseTorrentName = require('parse-torrent-name');
